@@ -61,7 +61,7 @@ class TextGenerationModelFactory(ABC):
         elif model_name == 'mixtral-8x7b-instruct':
             return Mixtral87BInstructTextGenerationModel()
         elif model_name == 'mistral-7b-instruct':
-            return Mixtral7BInstructModel()
+            return Mistral7BInstructModel()
         else:
             raise ValueError(f"Unknown class name: {model_name}")
 
