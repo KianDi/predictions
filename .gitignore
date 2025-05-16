@@ -10,3 +10,4 @@ misc/open_data.ipynb
 .venv/
 venv/
 env/
+test_run.py
